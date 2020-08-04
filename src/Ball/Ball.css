@@ -1,0 +1,62 @@
+.Ball {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 30px auto 0;
+  background-color: #cc2936;
+  border-radius: 50%;
+  box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5);
+  animation: spin 2s linear, moveLeftToRight 5s linear;
+  background-image: -webkit-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.2) 0%,
+    transparent 100%
+  );
+  background-image: -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.2) 0%,
+    transparent 100%
+  );
+  background-image: -o-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.2) 0%,
+    transparent 100%
+  );
+  background-image: -ms-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.2) 0%,
+    transparent 100%
+  );
+}
+
+.Ball-num {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  font-size: 1.75rem;
+  border-radius: 50%;
+  font-weight: 900;
+  background-color: #000;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-content: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
