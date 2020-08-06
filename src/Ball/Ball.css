@@ -7,7 +7,7 @@
   background-color: #cc2936;
   border-radius: 50%;
   box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5);
-  animation: spin 2s linear, moveLeftToRight 5s linear;
+  animation: spin 3s linear, moveLeftToRight 5s linear;
   background-image: -webkit-linear-gradient(
     -45deg,
     rgba(255, 255, 220, 0.2) 0%,
