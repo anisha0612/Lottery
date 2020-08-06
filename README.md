@@ -2,6 +2,8 @@
 
 This is a React.js app to generate Lottery balls.
 
+![](lottery.gif)
+
 In the project directory, you can run:
 
 ### `npm start`
